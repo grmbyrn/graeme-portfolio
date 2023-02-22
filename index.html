@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Graeme Byrne Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo.svg">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:wght@500;700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./assets/logo.svg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#footer" class="nav__link">Contact Me</a></li>
+                </ul>  
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Graeme Byrne</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">software engineer</p>
+            <img src="./assets/graeme-headshot.jpg" alt="a picture of Graeme Byrne smiling" class="intro__img">
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            
+            <div class="about-me__body">
+                 <p>My name is Graeme Byrne. I am an Irish software engineer living in Barcelona. I am passionate about building exceptional digital experiences. The projects below exhibit some of the skills and abilities which I have learned and developed.</p>
+                 <p>I am motivated by emerging technologies and have the desire to learn and implement anything which can improve my work. I consistently search for ways to improve my knowledge in all areas of web development, whether that be through building projects on the frontend or connecting with the backend.</p>
+            </div>
+         </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Front-end and back-end web development from wireframes and UI/UX design all the way up to completed fullstack web applications.</p>
+                </div>
+                
+                <div class="service">
+                    <h3>Responsive Design</h3>
+                    <p>Create sites and apps which are built to look and perform well on all types of devices with a logical and intuitive page structure for all users.</p>
+                </div>
+                
+                <div class="service">
+                    <h3>UI/UX Design</h3>
+                    <p>User-centred approach to all design decisions so that everything feels custom built for the target audience and is easy to navigate.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Skills -->
+        <section class="skills">
+            <article class="upper-skills">
+              <article class="skill skill-one">
+                <!-- <img src="./assets/pattern-graphic-design.svg" alt=""> -->
+                <i class="fab fa-js fa-7x"></i>
+                <h2 class="title">JavaScript</h2>
+              </article>
+          
+              <article>
+                <article class="inner-skills">
+                  <article class="skill skill-two">
+                    <i class="fab fa-css3 fa-3x"></i>
+                    <h2 class="title">CSS3</h2>
+                  </article>
+              
+                  <article class="skill skill-three">
+                    <i class="fab fa-html5 fa-3x"></i>
+                    <h2 class="title">HTML5</h2>
+                  </article>
+                </article>
+          
+                <article class="skill skill-four">
+                    <i class="fab fa-react fa-5x"></i>
+                    <h2 class="title">React</h2>
+                </article>
+              </article>
+            </article>
+        
+            <article class="lower-skills">
+              <article class="skill skill-five">
+                <i class="fab fa-git fa-5x"></i>
+                <h2 class="title">Git</h2>
+              </article>
+        
+              <article class="skill skill-six">
+                <i class="fab fa-node-js fa-5x"></i>
+                <h2 class="title">NodeJS</h2>
+              </article>
+            </article>
+        </section>
+        
+        <section class="skill-list-section">
+            <div class="language">
+                <h3 class="skill-list-title">Languages + Frameworks</h3>
+                <ul class="skill-list">
+                    <li>JavaScript</li>
+                    <li>Express</li>
+                    <li>React</li>
+                    <li>HTML5</li>
+                    <li>Tailwind CSS</li>
+                    <li>TypeScript</li>
+                    <li>CSS3</li>
+                </ul>
+            </div>
+            <div class="tech">
+                <h3 class="skill-list-title">Tools + Technologies</h3>
+                <ul class="skill-list">
+                    <li>Git</li>
+                    <li>NPM</li>
+                    <li>GitHub</li>
+                    <li>REST API</li>
+                    <li>Insomnia</li>
+                    <li>Postman</li>
+                    <li>VS Code</li>
+                    <li>Node</li>
+                    <li>EJS</li>
+                    <li>Handlebars</li>
+                </ul>
+            </div>
+            <div class="database">
+                <h3 class="skill-list-title">Databases</h3>
+                <ul class="skill-list">
+                    <li>MongoDB</li>
+                    <li>Mongoose</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="work">
+            <h2>My Work</h2>
+        
+            <div class="carousel">
+                <div class="carousel-flex">
+                    <div class="carousel-item">
+                        <img src="./assets/reading-recs-homepage.png">
+                        <div class="links">
+                            <h4 class="project-name">Reading Recs</h4>
+                            <a href="https://github.com/grmbyrn/100-hours-project" target="_blank" class="btn work-btn">Source</a>
+                            <a href="https://100-hours-project-production.up.railway.app/" target="_blank" class="btn work-btn">Visit</a>
+                            <p class="portfolio__item__desc">For many busy people, a new book can feel like a risk. They don't want to waste their precious free time on a book that they hate. Reading Recs is a full-stack app which allows the user to suggest books, as well as see, like and comment on other user's recommendations. The project uses Node and Express to connect with the database on MongoDB on the backend and EJS on the frontend.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/dashboard.png">
+                        <div class="links">
+                            <h4 class="project-name">Personal Dashboard</h4>
+                            <a href="https://github.com/grmbyrn/personal-dashboard" target="_blank" class="btn work-btn">Source</a>
+                            <p class="portfolio__item__desc">This Google Chrome extension project uses a number of APIs, including APIs from The New York Times, Unsplash, and OpenWeather, to display information on the user's personal dashboard. Async JavaScript accesses and displays this information for the user.</p>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="carousel-flex">
+                    <div class="carousel-item">
+                        <img src="./assets/travel-advisor.png">
+                        <div class="links">
+                            <h4 class="project-name">Travel Advisor</h4>
+                            <a href="https://github.com/grmbyrn/travel_advisor" target="_blank" class="btn work-btn">Source</a>
+                            <a href="https://grmbyrn.github.io/travel_advisor/" target="_blank" class="btn work-btn">Visit</a>
+                            <p class="portfolio__item__desc">This React project uses Material UI and APIs to find and display information about restaurants, hotels, and attractions in locations around the world. Users can search their current location or any other place in the world for a variety of things to do there.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/tenzies-game.png">
+                        <div class="links">
+                            <h4 class="project-name">Tenzies Game</h4>
+                            <a href="https://github.com/grmbyrn/tenzies-game" target="_blank" class="btn work-btn">Source</a>
+                            <a href="https://grmbyrn.github.io/tenzies-game" target="_blank" class="btn work-btn">Visit</a>
+                            <p class="portfolio__item__desc">In this game built with React, the player tries to get all ten dice to show the same number. A surprise awaits the successful player, before they play again. You won't want to stop!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-flex">
+                    <div class="carousel-item">
+                        <img src="./assets/picsum.png">
+                        <div class="links">
+                            <h4 class="project-name">Picsum</h4>
+                            <a href="https://github.com/grmbyrn/picsum" target="_blank" class="btn work-btn">Source</a>
+                            <a href="https://grmbyrn.github.io/picsum" target="_blank" class="btn work-btn">Visit</a>
+                            <p class="portfolio__item__desc">This React project allows the user to view a number of items. The user can favourite items and also add items to a cart, which they can also access on a separate page. From here, they can see the total price of their order and either remove items from their cart or proceed with placing their order.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/eli-school.png">
+                        <div class="links">
+                            <h4 class="project-name">English Language School</h4>
+                            <a href="https://github.com/grmbyrn/school-website" target="_blank" class="btn work-btn">Source</a>
+                            <a href="https://grmbyrn.github.io/school-website/index.html" target="_blank" class="btn work-btn">Visit</a>
+                            <p class="portfolio__item__desc">This project is a responsive website for an English language school which I presented to a potential client. It provides information on the school for prospective students. The site includes pages about the school, courses, and contact pages, as well as an area for information about teachers and staff.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:grmbrn89@gmail.com" class="footer__link">grmbrn89@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/gcbyrne" target="_blank">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/graeme-byrne/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/gbyrne89" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/grmbyrn" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
